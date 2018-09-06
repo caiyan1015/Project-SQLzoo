@@ -1,7 +1,6 @@
 # Project-SQLZOO tutorials' solutions
-
-# SELECT basics
-# Introducing the "world" table of countries
+## SELECT basics
+### Introducing the "world" table of countries
 1. Show population of Germany
 SELECT population FROM world WHERE name='Germany';
 
