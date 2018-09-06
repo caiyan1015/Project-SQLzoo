@@ -2,7 +2,9 @@
 ## SELECT basics
 ### Introducing the "world" table of countries
 1. Show population of Germany
-''' sql SELECT population FROM world WHERE name='Germany';
+''' sql 
+SELECT population FROM world WHERE name='Germany';
+'''
 
 2. Show name and population for Sweden, Norway and Denmark
 SELECT name, population FROM world WHERE name IN ('Sweden','Norway','Denmark');
